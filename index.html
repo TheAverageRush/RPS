@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <HTML>
-    <HEAD>
+    <head>
+        <script defer src="script.js"></script>
         <title> Rock, Paper & Scissors </title>
         <link rel="stylesheet" href="style.css">
 
-    </HEAD>
+    </head>
 
-    <BODY>
+    <body>
         <nav class="navbar">
             <h1>Rock, Paper and Scissor Game</h1> 
         </nav>
@@ -17,7 +18,7 @@
             <p>User's Score: <span id="user-score">0</span></p> 
         </div> 
         <div class="items"> 
-            <button class="btn" id="rock-bin">
+            <button class="btn" id="rock-btn">
             ROCK </button> 
             <button class="btn" id="paper-btn">
             PAPER </button> 
@@ -25,10 +26,15 @@
             SCISSOR 
         </button> 
     </div>
+    <div class="info-container">
+        <p id="user-choice"></p>
+        <p id="computer-choice"></p>
+        <h2 id="result"></h2>
+    </div>
 </div>
             </section>
 
-            <script src="script.js"></script>
+           
 
-    </BODY>
+    </body>
 </HTML>
